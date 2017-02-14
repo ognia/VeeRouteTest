@@ -1,0 +1,11 @@
+.callout {
+	font-size: 1.2rem;
+
+	@media screen and (max-width: 640px) {
+		margin-top: 4rem;
+	}
+
+	.fa {
+		margin: 0 6px;
+	}
+}

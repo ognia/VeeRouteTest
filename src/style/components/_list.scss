@@ -1,0 +1,30 @@
+.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid $brdr-color;
+	font-size: 1.4em;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.list__item {
+	height: 5vh;
+	padding: 0 2em;
+	border-bottom: 1px solid $brdr-color;
+	line-height: 5vh;
+	vertical-align: middle;
+
+	&:last-child {
+		border-width: 0;
+	}
+
+	&.active {
+		background-color: $primary;
+	}
+
+	.fa {
+		margin-right: .4rem;
+		color: #047A90;
+	}
+}
