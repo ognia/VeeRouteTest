@@ -1,0 +1,747 @@
+[
+    {
+        "flags": [
+            "flash",
+            "sun",
+            "heart"
+        ],
+        "name": "item-0"
+    },
+    {
+        "flags": [
+            "sun",
+            "flash",
+            "flower"
+        ],
+        "name": "item-1"
+    },
+    {
+        "flags": [
+            "sun",
+            "flash"
+        ],
+        "name": "item-2"
+    },
+    {
+        "flags": [
+            "sun",
+            "flash",
+            "heart",
+            "flower"
+        ],
+        "name": "item-3"
+    },
+    {
+        "flags": [
+            "heart",
+            "flower"
+        ],
+        "name": "item-4"
+    },
+    {
+        "flags": [
+            "flash",
+            "sun"
+        ],
+        "name": "item-5"
+    },
+    {
+        "flags": [
+            "flash",
+            "flower",
+            "heart",
+            "sun"
+        ],
+        "name": "item-6"
+    },
+    {
+        "flags": [
+            "flash"
+        ],
+        "name": "item-7"
+    },
+    {
+        "flags": [
+            "flower",
+            "flash"
+        ],
+        "name": "item-8"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-9"
+    },
+    {
+        "flags": [
+            "flower",
+            "flash"
+        ],
+        "name": "item-10"
+    },
+    {
+        "flags": [
+            "heart"
+        ],
+        "name": "item-11"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-12"
+    },
+    {
+        "flags": [
+            "sun",
+            "flower",
+            "heart",
+            "flash"
+        ],
+        "name": "item-13"
+    },
+    {
+        "flags": [
+            "sun",
+            "heart",
+            "flower"
+        ],
+        "name": "item-14"
+    },
+    {
+        "flags": [
+            "sun",
+            "flower"
+        ],
+        "name": "item-15"
+    },
+    {
+        "flags": [
+            "sun",
+            "heart",
+            "flash",
+            "flower"
+        ],
+        "name": "item-16"
+    },
+    {
+        "flags": [
+            "heart"
+        ],
+        "name": "item-17"
+    },
+    {
+        "flags": [
+            "flower",
+            "heart"
+        ],
+        "name": "item-18"
+    },
+    {
+        "flags": [
+            "heart"
+        ],
+        "name": "item-19"
+    },
+    {
+        "flags": [
+            "flower",
+            "flash"
+        ],
+        "name": "item-20"
+    },
+    {
+        "flags": [
+            "flash",
+            "flower",
+            "sun"
+        ],
+        "name": "item-21"
+    },
+    {
+        "flags": [
+            "heart",
+            "flash",
+            "sun",
+            "flower"
+        ],
+        "name": "item-22"
+    },
+    {
+        "flags": [
+            "heart",
+            "flash",
+            "flower",
+            "sun"
+        ],
+        "name": "item-23"
+    },
+    {
+        "flags": [
+            "heart",
+            "sun",
+            "flash",
+            "flower"
+        ],
+        "name": "item-24"
+    },
+    {
+        "flags": [
+            "flower",
+            "sun",
+            "heart"
+        ],
+        "name": "item-25"
+    },
+    {
+        "flags": [
+            "heart",
+            "flower",
+            "sun",
+            "flash"
+        ],
+        "name": "item-26"
+    },
+    {
+        "flags": [
+            "heart",
+            "sun",
+            "flash"
+        ],
+        "name": "item-27"
+    },
+    {
+        "flags": [
+            "flower",
+            "flash",
+            "heart"
+        ],
+        "name": "item-28"
+    },
+    {
+        "flags": [
+            "flash"
+        ],
+        "name": "item-29"
+    },
+    {
+        "flags": [
+            "heart",
+            "sun",
+            "flower"
+        ],
+        "name": "item-30"
+    },
+    {
+        "flags": [
+            "heart",
+            "sun",
+            "flower"
+        ],
+        "name": "item-31"
+    },
+    {
+        "flags": [
+            "heart",
+            "flower"
+        ],
+        "name": "item-32"
+    },
+    {
+        "flags": [
+            "heart",
+            "flower",
+            "sun",
+            "flash"
+        ],
+        "name": "item-33"
+    },
+    {
+        "flags": [
+            "flash",
+            "heart"
+        ],
+        "name": "item-34"
+    },
+    {
+        "flags": [
+            "heart",
+            "flower",
+            "sun"
+        ],
+        "name": "item-35"
+    },
+    {
+        "flags": [
+            "flash",
+            "sun",
+            "flower"
+        ],
+        "name": "item-36"
+    },
+    {
+        "flags": [
+            "flash"
+        ],
+        "name": "item-37"
+    },
+    {
+        "flags": [
+            "sun",
+            "heart",
+            "flash",
+            "flower"
+        ],
+        "name": "item-38"
+    },
+    {
+        "flags": [
+            "flower",
+            "heart",
+            "flash"
+        ],
+        "name": "item-39"
+    },
+    {
+        "flags": [
+            "sun",
+            "flower"
+        ],
+        "name": "item-40"
+    },
+    {
+        "flags": [
+            "flower"
+        ],
+        "name": "item-41"
+    },
+    {
+        "flags": [
+            "flower",
+            "sun"
+        ],
+        "name": "item-42"
+    },
+    {
+        "flags": [
+            "flash"
+        ],
+        "name": "item-43"
+    },
+    {
+        "flags": [
+            "flash",
+            "sun",
+            "heart"
+        ],
+        "name": "item-44"
+    },
+    {
+        "flags": [
+            "heart",
+            "flash"
+        ],
+        "name": "item-45"
+    },
+    {
+        "flags": [
+            "heart",
+            "sun"
+        ],
+        "name": "item-46"
+    },
+    {
+        "flags": [
+            "heart",
+            "sun",
+            "flower"
+        ],
+        "name": "item-47"
+    },
+    {
+        "flags": [
+            "flower",
+            "sun",
+            "heart",
+            "flash"
+        ],
+        "name": "item-48"
+    },
+    {
+        "flags": [
+            "heart",
+            "flash",
+            "sun",
+            "flower"
+        ],
+        "name": "item-49"
+    },
+    {
+        "flags": [
+            "flash"
+        ],
+        "name": "item-50"
+    },
+    {
+        "flags": [
+            "heart",
+            "flower"
+        ],
+        "name": "item-51"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-52"
+    },
+    {
+        "flags": [
+            "flower"
+        ],
+        "name": "item-53"
+    },
+    {
+        "flags": [
+            "flash",
+            "heart",
+            "sun"
+        ],
+        "name": "item-54"
+    },
+    {
+        "flags": [
+            "flower",
+            "heart",
+            "sun"
+        ],
+        "name": "item-55"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-56"
+    },
+    {
+        "flags": [
+            "flash",
+            "heart"
+        ],
+        "name": "item-57"
+    },
+    {
+        "flags": [
+            "sun",
+            "flash",
+            "flower",
+            "heart"
+        ],
+        "name": "item-58"
+    },
+    {
+        "flags": [
+            "flower",
+            "flash",
+            "sun",
+            "heart"
+        ],
+        "name": "item-59"
+    },
+    {
+        "flags": [
+            "sun",
+            "flower"
+        ],
+        "name": "item-60"
+    },
+    {
+        "flags": [
+            "sun",
+            "flower",
+            "flash",
+            "heart"
+        ],
+        "name": "item-61"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-62"
+    },
+    {
+        "flags": [
+            "heart"
+        ],
+        "name": "item-63"
+    },
+    {
+        "flags": [
+            "sun",
+            "flower",
+            "flash"
+        ],
+        "name": "item-64"
+    },
+    {
+        "flags": [
+            "heart"
+        ],
+        "name": "item-65"
+    },
+    {
+        "flags": [
+            "flash",
+            "flower",
+            "sun",
+            "heart"
+        ],
+        "name": "item-66"
+    },
+    {
+        "flags": [
+            "sun",
+            "flash",
+            "flower",
+            "heart"
+        ],
+        "name": "item-67"
+    },
+    {
+        "flags": [
+            "sun",
+            "flash",
+            "flower",
+            "heart"
+        ],
+        "name": "item-68"
+    },
+    {
+        "flags": [
+            "flash",
+            "heart",
+            "sun",
+            "flower"
+        ],
+        "name": "item-69"
+    },
+    {
+        "flags": [
+            "flash",
+            "heart",
+            "sun"
+        ],
+        "name": "item-70"
+    },
+    {
+        "flags": [
+            "flower",
+            "sun",
+            "flash"
+        ],
+        "name": "item-71"
+    },
+    {
+        "flags": [
+            "flower",
+            "flash",
+            "heart"
+        ],
+        "name": "item-72"
+    },
+    {
+        "flags": [
+            "flower",
+            "flash",
+            "heart",
+            "sun"
+        ],
+        "name": "item-73"
+    },
+    {
+        "flags": [
+            "flower",
+            "heart",
+            "sun",
+            "flash"
+        ],
+        "name": "item-74"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-75"
+    },
+    {
+        "flags": [
+            "flash",
+            "heart",
+            "flower",
+            "sun"
+        ],
+        "name": "item-76"
+    },
+    {
+        "flags": [
+            "heart",
+            "sun",
+            "flower"
+        ],
+        "name": "item-77"
+    },
+    {
+        "flags": [
+            "heart",
+            "sun",
+            "flower",
+            "flash"
+        ],
+        "name": "item-78"
+    },
+    {
+        "flags": [
+            "heart"
+        ],
+        "name": "item-79"
+    },
+    {
+        "flags": [
+            "flower"
+        ],
+        "name": "item-80"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-81"
+    },
+    {
+        "flags": [
+            "flower",
+            "heart",
+            "flash"
+        ],
+        "name": "item-82"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-83"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-84"
+    },
+    {
+        "flags": [
+            "flower",
+            "sun"
+        ],
+        "name": "item-85"
+    },
+    {
+        "flags": [
+            "flower",
+            "sun"
+        ],
+        "name": "item-86"
+    },
+    {
+        "flags": [
+            "flower",
+            "heart"
+        ],
+        "name": "item-87"
+    },
+    {
+        "flags": [
+            "heart"
+        ],
+        "name": "item-88"
+    },
+    {
+        "flags": [
+            "sun",
+            "flower",
+            "heart",
+            "flash"
+        ],
+        "name": "item-89"
+    },
+    {
+        "flags": [
+            "heart",
+            "flower",
+            "sun"
+        ],
+        "name": "item-90"
+    },
+    {
+        "flags": [
+            "flower"
+        ],
+        "name": "item-91"
+    },
+    {
+        "flags": [
+            "flower"
+        ],
+        "name": "item-92"
+    },
+    {
+        "flags": [
+            "flower"
+        ],
+        "name": "item-93"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-94"
+    },
+    {
+        "flags": [
+            "sun",
+            "flash",
+            "heart",
+            "flower"
+        ],
+        "name": "item-95"
+    },
+    {
+        "flags": [
+            "flash",
+            "heart"
+        ],
+        "name": "item-96"
+    },
+    {
+        "flags": [
+            "sun",
+            "flash",
+            "flower"
+        ],
+        "name": "item-97"
+    },
+    {
+        "flags": [
+            "flash",
+            "flower"
+        ],
+        "name": "item-98"
+    },
+    {
+        "flags": [
+            "sun"
+        ],
+        "name": "item-99"
+    }
+]

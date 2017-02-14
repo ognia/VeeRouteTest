@@ -1,0 +1,99 @@
+<!doctype html>
+<html ng-app="app" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>VeeRoute test</title>
+	<link rel="icon" type="image/x-icon" href="/img/favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<base href="/">
+</head>
+<body>
+	<main ng-controller="ListItemsCtrl as vm">
+		<div class="row">
+			<div class="small-12 medium-4 columns">
+				<div class="row filter">
+					<div class="small-4 columns">
+						<label class="checkbox-custom">
+							Sort:
+							<input type="checkbox" ng-model="vm.sort.sortReverse">
+							<i class="fa fa-sort-alpha-{{vm.sort.sortReverse ? 'desc' : 'asc'}}"></i>
+						</label>
+					</div>
+					<div class="small-8 columns">
+						<input type="text" ng-model="search.name" placeholder="Text filter">
+					</div>
+				</div>
+				<ul class="list">
+					<li class="list__item"
+						ng-class="item1.isActive"
+						ng-click="vm.showInfo(item1)"
+						ng-repeat="item1 in vm.itemsList | filter:search | orderBy:vm.sort.propertyName:vm.sort.sortReverse track by $index"
+						ui-on-drop="onDrop($index, $data, vm.itemsList)"
+						ui-draggable="true"
+						drag="item1"
+						on-drop-success="dropSuccessHandler($event,vm.itemsList,item1)">
+						{{item1.name}}
+						<i class="fa fa-{{flag}}" ng-repeat="flag in item1.flags"></i>
+					</li>
+				</ul>
+			</div>
+
+			<div class="small-12 medium-4 columns">
+				<div class="callout primary large">
+					<header>
+						<h1 class="text-center">INFO</h1>
+					</header>
+					<div class="ng-hide" ng-show="vm.selectItem">
+						<p>Name : {{vm.selectItem.name}}</p>
+						<p>Flags : <i class="fa fa-{{flag}}" ng-repeat="flag in vm.selectItem.flags"></i></p>
+					</div>
+					<div ng-hide="vm.selectItem">
+						<h4 class="text-center">Select item</h4>
+					</div>
+				</div>
+			</div>
+
+			<div class="small-12 medium-4 columns">
+				<div class="filter checkbox-custom">
+					Filters:
+					<input id="filter-flower" type="checkbox" ng-model="vm.filter.flower" ng-change="vm.filteredByFlags()">
+					<label for="filter-flower" ng-class="vm.filter.flower ? 'active' : ''">
+						<i class="fa fa-flower"></i>
+					</label>
+
+					<input id="filter-heart" type="checkbox" ng-model="vm.filter.heart" ng-change="vm.filteredByFlags()">
+					<label class="checkbox-custom" for="filter-heart" ng-class="vm.filter.heart ? 'active' : ''">
+						<i class="fa fa-heart"></i>
+					</label>
+
+					<input id="filter-sun" type="checkbox" ng-model="vm.filter.sun" ng-change="vm.filteredByFlags()">
+					<label for="filter-sun" ng-class="vm.filter.sun ? 'active' : ''">
+						<i class="fa fa-sun"></i>
+					</label>
+
+					<input id="filter-flash" type="checkbox" ng-model="vm.filter.flash" ng-change="vm.filteredByFlags()">
+					<label for="filter-flash" ng-class="vm.filter.flash ? 'active' : ''">
+						<i class="fa fa-flash"></i>
+					</label>
+				</div>
+
+
+				<ul class="list">
+					<li class="list__item"
+						ng-class="item2.isActive"
+						ng-repeat="item2 in vm.filteredArray track by $index"
+						ui-on-drop="onDrop($index, $data, vm.filteredArray)"
+						ui-draggable="true"
+						drag="item2"
+						on-drop-success="dropSuccessHandler($event,vm.filteredArray,item2)"
+						ng-click="vm.showInfo(item2)">
+						{{item2.name}}
+						<i class="fa fa-{{flag}}" ng-repeat="flag in item2.flags"></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
