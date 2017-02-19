@@ -6,6 +6,8 @@ class ListItemsCtrl {
 		vm.itemsList     = vm._ItemsService.query('items-list-1.json');
 		vm.filteredArray = vm._ItemsService.query('items-list-2.json');
 
+		vm.cashArray = vm.filteredArray;
+
 		vm.sort = {};
 		vm.sort.sortReverse  = false;
 		vm.sort.propertyName = 'name';
@@ -33,7 +35,7 @@ class ListItemsCtrl {
 		let vm  = this;
 		let arrFlags = [];
 
-		let filterItem = vm.filteredArray;
+		let _filterItem = vm.cashArray;
 
 		angular.forEach(vm.filter, (value, key) => {
 			if(vm.filter[key]) {
@@ -44,9 +46,9 @@ class ListItemsCtrl {
 		if(!arrFlags.length) arrFlags = [''];
 
 		for (var i = arrFlags.length - 1; i >= 0; i--) {
-			filterItem = vm._filterFilter(filterItem, arrFlags[i]);
+			_filterItem = vm._filterFilter(_filterItem, arrFlags[i]);
 		}
-		vm.filteredArray = filterItem;
+		vm.filteredArray = _filterItem;
 	}
 
 	showInfo(item) {
