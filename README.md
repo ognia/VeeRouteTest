@@ -9,7 +9,7 @@ This application using:
 
 ```bash
 # clone our repo
-$ git clone git@gitlab.com:ognia/veeRoute.git veeRoute
+$ git clone git@github.com:ognia/VeeRouteTest.git veeRoute
 
 # change directory to your app
 $ cd veeRoute
